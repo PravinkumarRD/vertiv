@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vertiv.eCommerce.DbFirst", "Vertiv.eCommerce.DbFirst\Vertiv.eCommerce.DbFirst.csproj", "{14E6EA98-4389-4C1B-A1C4-D0E6809B79EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vertiv.eCommer.Console.UI", "Vertiv.eCommer.Console.UI\Vertiv.eCommer.Console.UI.csproj", "{C367E87F-4532-4359-8636-4EC9BDACA643}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14E6EA98-4389-4C1B-A1C4-D0E6809B79EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E6EA98-4389-4C1B-A1C4-D0E6809B79EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E6EA98-4389-4C1B-A1C4-D0E6809B79EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E6EA98-4389-4C1B-A1C4-D0E6809B79EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C367E87F-4532-4359-8636-4EC9BDACA643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C367E87F-4532-4359-8636-4EC9BDACA643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C367E87F-4532-4359-8636-4EC9BDACA643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C367E87F-4532-4359-8636-4EC9BDACA643}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3730638A-5194-4846-BE99-9D7FA38E4DDD}
+	EndGlobalSection
+EndGlobal
