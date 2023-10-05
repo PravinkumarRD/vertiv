@@ -1,0 +1,88 @@
+Why ASP.NET MVC Core?
+1) It's an architectural Pattern
+2) It address Concern of Separation
+3) Using MVC, we can implement TDD - [Test Driven Development] Environment
+4) Simple MVVM - Model View ViewModel
+5) Easy Testing
+---------------------------- In ASP.NET Core MVC
+6) Offers complete customization of an Application Request Lifecycle
+7) Middlewares - Functions [Intercept Request and Response]
+8) Offers Featurewise Folder Structure - Areas
+9) State Management
+10) Caching
+11) Loose Coupling
+12) Human Readble URLs/ Routes
+
+	Route declaration Example - 
+		https://vertiv.com/{Controller}/{ActionMethod}/{Parameter?}
+	Exmples - 
+		https://vertiv.com [Default Route] [Default Controller (HomeController) and Default Action method - (Index)]
+		https://vertiv.com/Customers [Specific Route][Default Action Method (Index)]
+		https://vertiv.com/Customers/List
+		https://vertiv.com/Customers/Details/1002 [Parametermized/Dynamic Url]
+
+
+
+
+How does controller work?
+
+	1) Controller can work alone [Without View and Model]
+		Response - Text/File/...
+	2) Controller can work only with Model [Without View] //Send data in JSON format
+	3) Controller can work only with View [Without Model] //Static Webpage development
+	4) Controller can work with both View and Model
+
+
+In ASP.NET MVC [Backend App], all controllers are classes which contains method known as Action methods
+	The ultimate destination of your request is an action method of a controller
+In ASP.NET MVC [Backend App], all models are classes which contains the data and logic of your application
+In ASP.NET MVC [Backend App], all view extensions are .cshtml
+	CS - C# Language/ HTML
+	All C# code will start with @ sign in .CSHTML webpage
+
+Implementation of Common Look and Feel - 
+	Views=>Shared=>_layout.cshtml
+
+In MVC, we have Razor Engine = combination of C# and Html
+
+
+Introduction to PoC - Vertiv.eCommerce
+	1) Featurewise Folder Structure
+	2) Security - 
+		i) Authentication [Social Networking]
+		ii) Authorization
+		iii) Security Trimming
+	3) Repository Pattern/Unit-Of-Work
+	4) EF Core Code First Approach
+	5) Implement State Management
+	6) Caching - data [In-Memory Cache]
+	7) Third-party Bootstrap Theme
+	8) Layered architecture
+	9) Configure Wallet Payment system [Razor Pay/Paytm/...]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDLC - Software Development Lifecycle
+
+Product Owner => Business Analyst => Architect => Developers => Q.A/Testing => Deployment Team
