@@ -20,8 +20,9 @@ Why ASP.NET MVC Core?
 		https://vertiv.com/Customers [Specific Route][Default Action Method (Index)]
 		https://vertiv.com/Customers/List
 		https://vertiv.com/Customers/Details/1002 [Parametermized/Dynamic Url]
-
-
+	Route declaration with an Area Example - 
+		
+		https://vertiv.com/{Area}/{Controller}/{ActionMethod}/{Parameter?}
 
 
 How does controller work?
@@ -47,7 +48,7 @@ In MVC, we have Razor Engine = combination of C# and Html
 
 
 Introduction to PoC - Vertiv.eCommerce
-	1) Featurewise Folder Structure
+	1) Featurewise Folder Structure - Area
 	2) Security - 
 		i) Authentication [Social Networking]
 		ii) Authorization
@@ -61,22 +62,50 @@ Introduction to PoC - Vertiv.eCommerce
 	9) Configure Wallet Payment system [Razor Pay/Paytm/...]
 
 
+Html Tag Helpers - 
+	1) Number of Helper methods
+	2) Number of Helper attributes
+
+How do you pass data from controller's actionmethod to a view?
+
+	1) Pass Model as a parameter to View() method
+	2) ViewBag - It's a dynamic object
+	3) ViewData - Dictionary Object
+		ViewBag and ViewData are accessible only within the request
+	4) TempData - Dictionary Object
+		TempData is accessible to the next request
+
+	5) Example of MVVM - Passing VM - ViewModel as a Model to the view from controller
 
 
+PoC Assignments - 
+
+	1) Design Home Page of Vertiv eCommerce application
+		Use sliders, Cards and Images with 3 by 3 columns of Bootstrap
 
 
+Model Validations
+	Use Data Annotations
 
+List of Entities/Models
+	Category, Product, Customer, Cart, CartDetail, Invoice
 
+	CRUD operations [Best Way]
+	Asynchronous Generic Repository
+	class CommonCrudOperations<T>
+	{
+		GetAll():List<T>
+		GetDetails(int id):T
+		Insert(T item):int
+		Update(T item):int
+		Delete(int id):int
+	}
 
-
-
-
-
-
-
-
-
-
+	var categoryCrud=new CommonCrudOperations<Category>();
+	var productCrud=new CommonCrudOperations<Product>();
+	
+Database Name
+	VertiveCommerceDb
 
 
 
